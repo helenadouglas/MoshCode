@@ -1,3 +1,5 @@
+package LinkedLists;
+
 import java.util.NoSuchElementException;
 
 public class LinkedList {
@@ -129,13 +131,23 @@ public class LinkedList {
     }
 
     public int getKthFromEnd(int k){
+        //could also use this to give error message
+//        if(k > size){
+//            throw new IllegalArgumentException();
+//        }
+
+        if(isEmpty())
+            throw new IllegalArgumentException();
+
         var head = first;
         var tail = first;
 
         for(int i = 0; i < k-1; ++i){
-
-        }
             tail = tail.next;
+            if(tail == null)
+                throw new IllegalArgumentException();
+        }
+
         while (tail != last){
             head = head.next;
             tail = tail.next;

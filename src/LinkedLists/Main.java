@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package LinkedLists;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class Main {
         //list.reverse();
         //var array = list.toArray();
         //System.out.println(Arrays.toString(array));
-        System.out.println(list.getKthFromEnd(6));
+        System.out.println(list.getKthFromEnd(0));
 
 
 
