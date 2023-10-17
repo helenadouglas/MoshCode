@@ -128,7 +128,20 @@ public class LinkedList {
         first = previous;
     }
 
+    public int getKthFromEnd(int k){
+        var head = first;
+        var tail = first;
 
+        for(int i = 0; i < k-1; ++i){
+
+        }
+            tail = tail.next;
+        while (tail != last){
+            head = head.next;
+            tail = tail.next;
+        }
+        return head.value;
+    }
 
 
 }
