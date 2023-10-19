@@ -1,8 +1,8 @@
-package LinkedLists;
+package Stacks;
 
 import java.util.Stack;
 
-public class StacksMain {
+public class Main {
     public static void main(String[] args) {
         Stack<Integer> stack = new Stack<>();
         //pushes the items into the stack
