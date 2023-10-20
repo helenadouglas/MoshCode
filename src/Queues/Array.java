@@ -27,5 +27,17 @@ public class Array {
         //isEmpty
         //isFull
 
+        QueueTwoStacks queueStack = new QueueTwoStacks();
+        queueStack.enqueue(10);
+        queueStack.enqueue(20);
+        queueStack.enqueue(30);
+        queueStack.dequeue();
+        queueStack.dequeue();
+        queueStack.dequeue();
+        var first = queueStack.dequeue();
+        System.out.println(first);
+
+
+
     }
 }
