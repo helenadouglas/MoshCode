@@ -49,15 +49,13 @@ public class Main {
 
         System.out.println(stack1.peek());
 
-        //push
-
         //pop
-
-//        var top1 = stackArray.pop();
-//        System.out.println("\n" + top1);
-//        System.out.println(stackArray);
+        var top1 = stack1.pop();
+        System.out.println("\n" + top1);
+        System.out.println(stack1);
         //peek
         //isEmpty
+        System.out.println(stack1.isEmpty());
         //int[]
 
 
