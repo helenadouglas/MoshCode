@@ -11,7 +11,11 @@ public class Array {
         var front = queue.dequeue();
         queue.enqueue(20);
         queue.enqueue(25);
-        queue.enqueue(5);
+        queue.enqueue(30);
+        queue.enqueue(35);
+        queue.dequeue();
+        queue.enqueue(40);
+
 
 
         System.out.println(front);
